@@ -54,13 +54,13 @@
         <h5>Add New Student</h5>
         <form action="/insert" method="post"  id="insert_form">
             Name:<br/>
-            <input type="text" class="form-control" name="fname"/>
+            <input type="text" class="form-control" name="fname" required/>
             <br/>
             Last Name:<br/>
-            <input type="text" class="form-control" name="lname"/>
+            <input type="text" class="form-control" name="lname" required/>
             <br/>
             Department:<br/>
-            <input type="text" class="form-control" name="department"/>
+            <input type="text" class="form-control" name="department" required/>
             <br/>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
