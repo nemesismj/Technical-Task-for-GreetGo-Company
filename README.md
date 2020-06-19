@@ -10,8 +10,6 @@ Spring Security
 
 Spring Security BCryptPasswordEncoder
 
-Spring Validator
-
 MySQL
 
 MyBatis
