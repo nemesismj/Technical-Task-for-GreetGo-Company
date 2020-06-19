@@ -24,7 +24,7 @@ TestNG
 Для базы данных я использовал MySQL Workbench.
 # Установка и запуск
 1)Чтобы скачать с гитхаба проект запускаем команду:
-git clone https://github.com/nemesismj/E-schoolGreetGoRepo.git
+git clone https://github.com/nemesismj/GreetGotest.git
 
 2)Открываем проект с IntellijIDEA
 
