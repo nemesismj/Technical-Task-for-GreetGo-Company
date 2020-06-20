@@ -25,12 +25,12 @@ public class StudentTest extends AbstractTestNGSpringContextTests {
         Student s = new Student();
         s.setFname("Nurzhan");
         s.setLname("Raikhanov");
-        s.setDepartment("CS-1702R");
+        s.setDepartment("CS-1702");
         studentRepository.insert(s);
         //Проверка на то что у нас данные из первой строки в базе данных совпадают с теми что выше
         List<Student> students = studentRepository.findAll();
         Assert.assertEquals("Nurzhan", students.get(0).getFname());
         Assert.assertEquals("Raikhanov", students.get(0).getLname());
-        Assert.assertEquals("CS-1702R", students.get(0).getDepartment());
+        Assert.assertEquals("CS-1702", students.get(0).getDepartment());
     }
 }
